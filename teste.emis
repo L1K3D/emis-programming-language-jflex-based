@@ -1,0 +1,13 @@
+inicio
+var aluno = 42
+funcao soma(a, b) {
+    retorna a + b
+}
+/* Comentário
+   /* aninhado */
+*/
+"""Texto
+multilinha
+com escape \n"""
+imprime "Resultado"
+fim
