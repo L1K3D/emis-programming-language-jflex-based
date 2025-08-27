@@ -93,9 +93,11 @@ VAR 'var' (2:0) IDENT 'aluno' (2:4) NUM_INT '42' (2:12)
 ```bash
 javac Token.java LexerEmis.java TesteLexer.java
 java TesteLexer
+```
 
-🔸 Sample Input
+### 🔸 Sample Input
 
+```emis
 inicio
 var aluno = 42
 funcao soma(a, b) {
@@ -106,19 +108,22 @@ multilinha
 com escape \n"""
 imprime "Resultado"
 fim
+```
 
-🔸 Sample Output
+### 🔸 Sample Output
+```emis
 INICIO 'inicio' (0:0)
 VAR 'var' (1:0)
 IDENT 'aluno' (1:4)
 OP_ATRIB '=' (1:10)
 NUM_INT '42' (1:12)
 ...
+```
 
-📚 Academic Context
+### 📚 Academic Context
 This project was developed as part of a university-level course on compiler construction and formal language theory. It demonstrates practical application of lexical analysis principles using JFlex, and serves as a foundation for future parser and interpreter development.
 
-🧩 File Structure
+### 🧩 File Structure
 
 emis-programming-language/
 ├── LexerEmis.jflex       # JFlex specification file
@@ -128,5 +133,5 @@ emis-programming-language/
 ├── teste.emis            # Sample input file
 └── README.md             # Project documentation
 
-📄 License
+### 📄 License
 This project is intended for educational use and is distributed under an academic fair-use policy.
