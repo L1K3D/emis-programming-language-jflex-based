@@ -125,6 +125,7 @@ This project was developed as part of a university-level course on compiler cons
 
 ### 🧩 File Structure
 
+```bash
 emis-programming-language/
 ├── LexerEmis.jflex       # JFlex specification file
 ├── LexerEmis.java        # Generated lexer
@@ -132,6 +133,7 @@ emis-programming-language/
 ├── TesteLexer.java       # Lexer runner
 ├── teste.emis            # Sample input file
 └── README.md             # Project documentation
+```
 
 ### 📄 License
 This project is intended for educational use and is distributed under an academic fair-use policy.
