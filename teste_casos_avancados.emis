@@ -1,0 +1,24 @@
+funcao soma(a, b) {
+  retorna a + b
+}
+
+var resultado = soma(5, 7)
+imprime "Resultado: " + resultado
+
+// Comentário de linha
+
+/*
+  Comentário de bloco
+  /* Comentário aninhado */
+*/
+
+var x = 0x2A
+var f = 3.14e-2
+
+"""Texto
+multilinha
+com \n escapes"""
+
+imprime f
+fim
+
